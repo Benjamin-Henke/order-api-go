@@ -12,10 +12,10 @@ func (o *Order) Create(w http.ResponseWriter, r *http.Request) {
 }
 
 func (o *Order) List(w http.ResponseWriter, r *http.Request) {
-	fmt.Println('List all orders')
+	fmt.Println("List all orders")
 }
 
-func (p *Order) GetByID(w http.ResponseWriter, r *http.Request) {
+func (o *Order) GetByID(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Get an order by ID")
 }
 
